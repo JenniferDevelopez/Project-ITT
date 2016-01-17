@@ -33,13 +33,11 @@ INSTRUCTIONS (all the links are down below):
 - Now you can move on to the last step. Head to the Solderlabs website and download the zip-file for your specific Matrix model. If you scroll-down in the download section you will find more options. (http://www.solderlab.de/index.php/downloads/category/4-glediator)
 
 - Now comes the tricky part. You have to install the latest version of JDK (Java Development Kit) and the RXTX library. Make sure you copy the files to the according paths (instructions are in the zip-file). Take note that you probably have multiple java versions installed on your computer. Just copy them to newest version. If you don't know which one it is, just click windows start > search: 'CMD' and type the following line 'java -version' and hit enter.
-
-- Now open the sketch 'ArduinoYun_Glediator_TempSensor_PotMeter'. Change the following lines to your specific hardware:
-
-    #define NUM_LEDS 256 <-- total LEDS
-    #define DATA_PIN 6 <-- data pin of the Matrix
-    #define CHIPSET WS2812 <-- your Matrix model
-
+- Now open the sketch 'ArduinoYun_Glediator_TempSensor_PotMeter'.
+  Change the following lines to match your hardware:
+  'define NUM_LEDS 256 <-- total LEDS'
+  'define DATA_PIN 6 <-- data pin of the Matrix'
+  'define CHIPSET WS2812 <-- your Matrix model'
 - Verify the code and upload it to your Arduino. For the Arduino part you are officially done!
 - Open up the Glediator Interface. Make sure you go to options first in the top menu-bar and change the Matrix Size and Output Options to match yours (Output Mode must be 'Glediator Protocol'). If you dont know the correct 'Pixel Order'  or 'Color Order', dont worry! It will work anyways but it might not display correctly. You can go trough these settings a couple times afterwards if everything worked out. Check the image down below for reference. 
 - Now click on 'Serial Open' in the Output Options window to start the connection between Glediator and the Arduino.
