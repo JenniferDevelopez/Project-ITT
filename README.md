@@ -88,4 +88,4 @@ If you really want to get into Arduino I would suggest you to buy 'Exploring Ard
 If you have any questions or feedback, feel free to contact me.
 Good luck with your project!
 
-// Y.
+// Yassine Raddahi
