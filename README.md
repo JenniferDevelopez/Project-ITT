@@ -3,7 +3,7 @@ Games &amp; Interaction - ITT - Arduino Controlled NeoPixel Matrix w/ FastLED li
 
 Hi there,
 
-I this guide I will explain you how to setup a NeoPixel Matrix with an Arduino board(Yùn). 
+In this guide I will explain you how to setup a NeoPixel Matrix with an Arduino board(Yùn). 
 We will use various components and software to show-off the capabilities! I have added comments in the Arduino Sketch file to make it understandable. Make sure you download the 'sketches' zip-file down below.
 
 Things you need:
